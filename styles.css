@@ -1,0 +1,235 @@
+/* Custom styles */
+/* Navbar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for better spacing */
+    display: flex; /* Make navbar items flex for alignment */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-brand {
+    font-size: 30px; /* Larger font size for brand */
+    text-decoration: none; /* Remove underline from link */
+    color: #fff; /* Text color */
+}
+
+.navbar-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Make links flex for horizontal alignment */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+.navbar-links:hover{
+    color: #e8689f;
+}
+
+.navbar-links li {
+    margin-right: 20px; /* Spacing between links */
+}
+
+.navbar-links li:last-child {
+    margin-right: 0; /* Remove margin for last link */
+}
+
+.navbar-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+}
+
+.navbar-links li a:hover {
+    color: #e8689f; /* Change color on hover */
+}
+
+.search-container {
+    display: flex;
+
+}
+
+.search-container form {
+    display: flex;
+    
+}
+
+.search-container input[type=text] {
+    padding: 10px; /* Increase padding for better appearance */
+    width: 600px; /* Adjust width as needed */
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    color: #e8689f;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+.search-container button {
+    background-color: #e8689f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.search-container button:hover{
+    background-color: white;
+    color: #e8689f;
+}
+
+
+/* Content Container */
+.content-container {
+    position: relative;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome-text{
+    color: #343a40; 
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+    transition: transform 0.3s ease;
+    
+}
+
+.card-title {
+    color: #e8689f;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.card-text {
+    color: #343a40;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    
+}
+.card a{
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.AllCourses {
+    color: #343a40;
+}
+
+.AllCourses:hover {
+    color: #e8689f;
+}
+
+/* Mentors Section */
+.Mentors {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Mentors .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between mentor cards */
+}
+
+/* Mentor Card */
+.Mentors .card {
+    width: 300px; /* Adjust the width of each mentor card */
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Mentors .card:hover {
+    transform: translateY(-10px);
+}
+
+.Mentors .card img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.Mentors .card h5,
+.Mentors .card p {
+    margin-bottom: 10px;
+}
+
+/* Mentor Info Icons */
+.Mentors .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Mentors .mentor-info img {
+    width: 30%; /* Adjust the size of mentor-info elements */
+}
+
+/* Contact Us */
+.ContactUs {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.contact-form textarea {
+    height: 150px;
+    color: #e8689f;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e8689f;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #343a40;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    color: rgb(38, 38, 38);
+    padding: 20px 0;
+    text-align: center;
+}
